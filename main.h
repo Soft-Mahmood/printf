@@ -34,5 +34,4 @@ int print_hex(va_list list);
 int print_heX(va_list list);
 int hex_check(int num, char x);
 
-
 #endif
