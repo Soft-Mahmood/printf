@@ -1,18 +1,6 @@
 #include "main.h"
 
 /**
- * _write_char writes the character to stdout
- * @c is the character to print
- * returns 1 on success
- * returns -1 on failure
- */
-
-int _write_char(char c)
-{
-	return (write(1, &c, 1));
-}
-
-/**
  * print_char prints a chahacter
  * @list is the list of arguments
  * returns the amount of characters printed
